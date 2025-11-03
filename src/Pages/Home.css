@@ -2,10 +2,11 @@
     background-image: url('../assets/download.jpeg');
     width: 100%;
     position: relative;
-    Height: 150vh;
+    Height: 137vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+   
 }
 
 .content{
@@ -22,6 +23,7 @@
       font-style: italic;
     font-size: 45px;
     word-spacing: 10px;
+    padding-left: 2%;
 }
 
 .hero-span{
@@ -36,6 +38,7 @@
     letter-spacing: 1.2px;
     line-height: 30px;
     color: white;
+     padding-left: 2%;
     
 }
 
@@ -45,7 +48,7 @@
     color: white;
     background: coral;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 20px;
     font-size: 18px;
     border-radius: 10px;
@@ -62,7 +65,7 @@
     color: white;
     background: coral;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     margin-left: 20px;
     font-size: 18px;
     border-radius: 10px;
@@ -88,6 +91,7 @@
     border-radius: 10px;
     padding: 50px;
     color: azure;
+   
  }
 
 .form-h2{
@@ -165,8 +169,8 @@
     gap: 8px;
 }
    .form-inpout{
-    width:300px ;
-    margin-left: 10px;
+    width:200px ;
+    margin-left: 15px;
    }
 
    .home-form{
@@ -178,7 +182,7 @@
    .cnn{
     width: 200px;
     margin-top: 10px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
    }
 
    .hero-h2{
