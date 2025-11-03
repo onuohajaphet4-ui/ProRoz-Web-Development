@@ -5,7 +5,7 @@
     border: 2px solid  rgba(252, 181, 134, 0.3);
     border-radius: 20px;
     width: 450px;
-    height: 67vh;
+    height: 69vh;
     padding:40px;
     /* text-align: center; */
     margin: 30px;
@@ -27,7 +27,8 @@ select{
 
 @media(max-width:600px){
     .lform{
-      height: 50vh;
-      margin-top: 40%;
+      height: 62vh;
+      margin-top: 30%;
+      width: 280px;
     }
 }

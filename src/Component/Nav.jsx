@@ -87,7 +87,7 @@ const Navbar = () => {
          
           
           {user ? (
-            <span style={{ color: "white", marginLeft: "20px"  ,fontSize:'10px'}}>
+            <span style={{ color: "white", marginLeft: "10px"  ,fontSize:'15px'}}>
               Welcome, <b>{user.firstName}</b> 
             </span>
           ) : (
@@ -99,15 +99,16 @@ const Navbar = () => {
         
            <Link to='/home'>
             <button
-              onClick={alert('Logged out successful')}
+              
               style={{
-                marginLeft: "20px",
+                marginLeft: "10px",
                 background: "transparent",
                 border: "1px solid white",
                 color: "coral",
                 borderRadius: "5px",
                 padding: "4px 10px",
                 cursor: "pointer",
+                fontSize:'5px'
               }}
             >
               Logout

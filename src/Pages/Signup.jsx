@@ -136,15 +136,15 @@ const Username = () => {
            <br /> <br />
 
 
-            <button type="submit" className="sign-btn" style={{ borderRadius: "10px" }}>
-              {loading ? <CircularProgress size={24} color="inherit" /> : "Register"}
+            <button type="submit" className="sign-btn" style={{ borderRadius: "10px" , fontSize:'10px'}}>
+              {loading ? <CircularProgress size={24}  /> : "Register"}
             </button>
 
              Already have an account?
                         
-              <Link to ='/sign' style={{ color: "white",
+              <Link to ='/' style={{ color: "white",
                 fontWeight: 600,
-                            textDecoration: "none",}}> Sign up</Link>
+                            textDecoration: "none",}}> Login</Link>
           </form>
         </div>
       </motion.div>

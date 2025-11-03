@@ -5,6 +5,7 @@ import Branch from '../Component/Branch'
 import Footer from '../Component/Footer'
 import './Contact.css'
 import { motion } from "framer-motion";
+import {Link} from 'react-router-dom'
 const Contact = () => {
   return (
     <div className='contact'>
@@ -39,7 +40,7 @@ const Contact = () => {
                     <h2 className='con-info-h2'>Head Office</h2>
                     <p className='con-info-p'>B49, L'Arcade Mall, Area L, World Bank 14C Okohia Layout, New Owerri, Owerri, Nigeria.</p>
 
-                    <h6 className='con-info-h6'>See Other Branches</h6>
+                   <Link to='/branch' style={{textDecoration:'none'}}> <h6 className='con-info-h6'>See Other Branches</h6></Link>
                  </div>
 
                  <div className="con-inf">

@@ -133,7 +133,7 @@ const Signup = () => {
 
 
 
-        <button type='submit'  className="sign-btn" style={{borderRadius:'10px'}}>Sign up</button>
+        <button type='submit'  className="sign-btn" style={{borderRadius:'10px', fontSize:'10px'}}>Sign up</button>
 
     
       </form>

@@ -5,7 +5,7 @@
     border: 2px solid  rgba(252, 181, 134, 0.3);
     border-radius: 20px;
     width: 450px;
-    height: 100vh;
+    height: 110vh;
     padding:40px;
     text-align: center;
     margin: 30px;
@@ -41,9 +41,9 @@
 }
 @media(max-width:500px){
     .form{
-        width:90%;
-        height: 65vh;
-        margin-top: 15%;
+        width:280px;
+        height: 83vh;
+        margin-top: 5%;
     }
 
     .sign-input{

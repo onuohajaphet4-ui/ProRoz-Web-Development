@@ -101,8 +101,8 @@ const Username = () => {
             <br />
             <br />
 
-            <button type="submit" className="sign-btn" style={{ borderRadius: "10px" }}>
-              {loading ? <CircularProgress size={24} color="inherit" /> : "Sign Up"}
+            <button type="submit" className="sign-btn" style={{ borderRadius: "10px" , fontSize:'10px'}}>
+              {loading ? <CircularProgress size={24}  /> : "Sign Up"}
             </button>
           </form>
         </div>
