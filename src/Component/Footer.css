@@ -1,0 +1,30 @@
+.foot{
+    background-color: rgba(212, 136, 109, 0.37);
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    
+    
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+    li{
+        list-style: none;
+        padding: 2px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width:600px){
+    .foot{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

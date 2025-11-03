@@ -1,0 +1,47 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+@media(max-width:600px){
+ .MuiTableContainer-root{
+    width:100%;
+    overflow-x: auto;
+    display: block;
+ }
+
+ table{width: 600px;
+       font-size: 0.85rem;
+
+}
+
+th,td{
+    padding: 6px;
+}
+
+th:nth-child(1),
+td:nth-child(1){
+    display: none;
+}
+
+td:nth-child(2),
+td:nth-child(3){
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+button{
+    font-size: 0.1rem;
+    padding: 3px 5px;
+    margin: 0 2px;
+}
+
+.edit{
+    display: none;
+
+}
+
+.view{
+    display: none;
+}
+}

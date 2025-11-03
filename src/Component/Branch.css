@@ -1,0 +1,62 @@
+.bra-h1{
+    color: rgb(66,65,65);
+    text-align: center;
+    font-size: 50px;
+    padding: 2%;
+}
+
+.bran-input{
+   display: none;
+   
+}
+.branch{
+    display: flex;
+    justify-content: center;
+    padding-top:4% ;
+    flex-wrap: wrap;
+}
+
+.branch1{
+    box-shadow: 0 4px 12px grey;
+    width: 30%;
+    margin: 1%;
+    padding-top: 5%;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bra-h3{
+    background-color: rgb(228, 122, 83);
+    padding: 9%;
+    border-radius: 0 20px;
+    margin-top: 10px;
+    color: white;
+}
+@media(max-width:600px){
+    .bra-h1{
+        font-size: 30px;
+       
+    }
+
+    .branch{
+        flex-direction: column;
+        padding-left: 10%;
+    }
+
+    .branch1{
+        width: 80%;
+        
+    }
+
+    .bran-input{
+         margin-left: 19%;
+         margin-top: 2%;
+         padding:2% 3%;
+         border-radius: 10px;
+         border: none;
+         gap: 10px;
+         display: block;
+
+  
+    }
+}

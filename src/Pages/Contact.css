@@ -1,0 +1,212 @@
+.contact{
+    background-image: url('../assets/download.jpeg');
+    width: 100%;
+    position: relative;
+    Height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.con-h1{
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.con-p{
+     padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+}
+
+span{
+     color:coral;
+    font-size: 25px;
+    font-family: arial;
+}
+
+.main-h1{
+    padding-top: 6%;
+    padding-left: 12%;
+    padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-p{
+     padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main{
+   /* background: linear-gradient(90deg,#FF7F50,#FFA07A); */
+   background-color:peru;
+   height: 300vh;
+}
+
+.conta{
+    display: flex;
+    padding: 5%;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.conta1{
+    width: 40%;
+    padding-left: 10%;
+
+
+}
+
+.con-inf{
+    margin-top: 10px;
+    background-color:white;
+    border-radius: 20px;
+    height: 25vh;
+    padding-top: 6%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding-left: 4% ;
+    
+
+   .con-info-h2{
+        color: rgb(66, 65, 65);
+        padding-top: 6%;
+        /* padding-left: 4%; */
+        padding-right: 4%;
+    }
+
+    .con-info-p{
+         color: rgb(66, 65, 65);
+        padding-top: 5%;
+        /* padding-left: 4%; */
+        padding-right: 5%;
+    }
+
+    
+}
+
+.con-info{
+    margin-top: 10px;
+    background-color:white;
+    border-radius: 20px;
+    height: 40vh;
+    padding-top: 6%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding-left: 4% ;
+
+    .con-info-h2{
+        color: rgb(66, 65, 65);
+        padding-top: 8%;
+        /* padding-left: 4%; */
+        padding-right: 4%;
+    }
+
+    .con-info-p{
+         color: rgb(66, 65, 65);
+        padding-top: 5%;
+        /* padding-left: 4%; */
+        padding-right: 5%;
+    }
+
+    .con-info-h6{
+         color: skyblue;
+        padding-top: 5%;
+        padding-left: 4%;
+        padding-right: 5%;
+        font-size:15px;
+    }
+    
+}
+
+
+
+.conta2{
+    background-color: beige;
+    width: 40%;
+    border-radius: 20px;
+    height: 67vh;
+    padding-top: 6%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+    .con-info-h{
+         color: rgb(66, 65, 65);
+        
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .con-info-h5{
+          color: rgb(66, 65, 65);
+        padding-top: 3%;
+        /* padding-left: 1%; */
+        padding-right: 4%;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .con-info-9{
+         color: skyblue;
+        padding-top: 2%;
+        padding-left: 4%;
+        padding-right: 5%;
+        font-size:15px;
+        padding-bottom: 8%;
+    }
+}
+
+.grey{
+    background-color: rgba(218, 215, 215, 0.479);
+    height: 58vh;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+@media (max-width:600px){
+    .conta1{
+        width:90%;
+       padding-left: 5%;
+       
+    }
+
+    .conta2{
+        width:90%;
+        height: 45vh;
+        margin-left: 5%;
+
+        .con-info-h5{
+          color: rgb(66, 65, 65);
+        padding-top: 8%;
+
+         .con-info-9{
+        
+        padding-top: 4%;
+        padding-bottom: 2%;
+    }
+        
+    }
+    }
+
+    .con-inf{
+        height:18vh ;
+    }
+
+    .con-info{
+        height:28vh ;
+    }
+
+    .grey{
+         height: 38vh;
+    }
+}

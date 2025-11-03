@@ -1,0 +1,194 @@
+.con{
+    background-image: url('../assets/download.jpeg');
+    width: 100%;
+    position: relative;
+    Height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content{
+    
+    display: flex;
+      padding-left: 40px;
+      padding-right: 40px;
+        margin-top: 5%;
+    gap: 70px;
+}
+
+.hero-h2{
+    color: white;
+      font-style: italic;
+    font-size: 45px;
+    word-spacing: 10px;
+}
+
+.hero-span{
+     color: coral;
+    font: 80060px;
+}
+
+.para{
+    /* padding-left: 20px; */
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: white;
+    
+}
+
+.cn{
+     width: 160px;
+    height: 40px;
+    color: white;
+    background: coral;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    text-decoration: none;
+
+    
+}
+
+.cnn{
+     width: 310px;
+    height: 40px;
+    color: white;
+    background: coral;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    text-decoration: none;
+
+    
+}
+
+.cn:hover{
+  color: blue;
+ }
+
+ .cnn:hover{
+  color: blue;
+ }
+
+.home-form{
+    width:37%;
+    /* height: 380px; */
+    background: linear-gradient(to top,black 50%,black 50%);
+    border-radius: 10px;
+    padding: 50px;
+    color: azure;
+ }
+
+.form-h2{
+    font-style: italic;
+    text-align: center;
+    color: coral;
+    background-color: beige;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 8px;
+}
+
+.form-inpout{
+    width: 340px;
+    /* height: 35px; */
+    background: transparent;
+    border: 1px solid coral;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.form-inpout:focus{
+    outline: none;
+}
+
+.form-inpout::placeholder{
+    color: white;
+    font-family: arial;
+}
+.liw{
+    font-weight: lighter;
+    text-align: center;
+    /* padding-bottom: 10px; */
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.icon{
+    text-align: center;
+    padding-top: 25px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon{
+    
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+    text-align: center;
+}
+
+
+.icon ion-icon:hover{
+    color: rgb(101, 101, 241);
+}
+
+@media(max-width:600px){
+ .content{
+    
+    display: flex;
+    flex-wrap: wrap;
+      padding-left: 10px;
+      padding-right: 10px;
+        margin-top: 30%;
+    gap: 8px;
+}
+   .form-inpout{
+    width:265px ;
+   }
+
+   .home-form{
+    width: 70%;
+    margin-left: 10%;
+    margin-top:25px;
+   }
+
+   .cnn{
+    width: 200px;
+    margin-top: 10px;
+   }
+
+   .hero-h2{
+    font-size: 25px;
+   }
+
+   .home-form{
+    padding: 20px;
+   }
+
+   .para{
+    padding-top: 5px;
+   }
+ 
+}

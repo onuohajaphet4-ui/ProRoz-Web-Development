@@ -1,0 +1,34 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* gap: 20%; */
+    background-color: inherit;
+    padding-top:3%;
+}
+
+.nav-h2{
+     color:coral;
+    font-size: 35px;
+    font-family: arial;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    list-style: none;
+    color:white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+@media(max-width:500px){
+    .nav-ul{
+    
+    gap: 3%;
+    
+}
+}

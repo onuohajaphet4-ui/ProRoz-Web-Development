@@ -1,0 +1,33 @@
+.lform{
+     background-color:  rgba(252, 181, 134, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 2px solid  rgba(252, 181, 134, 0.3);
+    border-radius: 20px;
+    width: 450px;
+    height: 67vh;
+    padding:40px;
+    /* text-align: center; */
+    margin: 30px;
+    margin-top: 6%;
+}
+
+select{
+    width: 70%;
+    height: 4vh;
+    font-family: Arial;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    background-color:coral;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 5%;
+}
+
+@media(max-width:600px){
+    .lform{
+      height: 50vh;
+      margin-top: 40%;
+    }
+}
