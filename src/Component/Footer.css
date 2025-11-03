@@ -13,7 +13,9 @@
 .second{
     display: flex;
     justify-content: center;
-    gap: 90px;
+    gap: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
 
     li{
         list-style: none;
@@ -25,6 +27,6 @@
 @media(max-width:600px){
     .foot{
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 15px;
     }
 }

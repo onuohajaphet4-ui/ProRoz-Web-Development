@@ -50,7 +50,7 @@ span{
 .main{
    /* background: linear-gradient(90deg,#FF7F50,#FFA07A); */
    background-color:peru;
-   height: 300vh;
+   height: 440vh;
 }
 
 .conta{
@@ -182,7 +182,7 @@ span{
 
     .conta2{
         width:90%;
-        height: 45vh;
+        height: 66vh;
         margin-left: 5%;
 
         .con-info-h5{
@@ -199,14 +199,14 @@ span{
     }
 
     .con-inf{
-        height:18vh ;
+        height:22vh ;
     }
 
     .con-info{
-        height:28vh ;
+        height:32vh ;
     }
 
     .grey{
-         height: 38vh;
+         height: 57vh;
     }
 }

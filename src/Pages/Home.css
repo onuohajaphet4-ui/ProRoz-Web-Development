@@ -2,7 +2,7 @@
     background-image: url('../assets/download.jpeg');
     width: 100%;
     position: relative;
-    Height: 100vh;
+    Height: 150vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +165,8 @@
     gap: 8px;
 }
    .form-inpout{
-    width:265px ;
+    width:300px ;
+    margin-left: 10px;
    }
 
    .home-form{
@@ -177,6 +178,7 @@
    .cnn{
     width: 200px;
     margin-top: 10px;
+    margin-left: 50px;
    }
 
    .hero-h2{
